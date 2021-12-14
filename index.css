@@ -8,17 +8,41 @@ ul{
 
 #ytLogo{
     width: 20px;
+    
 }
 
 #instaLogo{
     width: 20px;
+    
 }
 #soundCloudLogo{
     width: 20px;
+    
 }
 #facebookLogo{
     width: 20px;
+    
 }
 #beatStarsLogo{
     width: 20px;
+    
+}
+
+li{
+    background-color: wheat;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+      
+}
+a{
+    text-decoration: none;
+    color: rgb(99, 95, 95);
+    margin-left: 5px;
+}
+
+#linkDiv{
+
 }
