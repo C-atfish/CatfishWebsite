@@ -43,6 +43,18 @@ a{
     margin-left: 5px;
 }
 
-#linkDiv{
+#footerId{
 
+    
+    
+ 
+    background-color: aqua;
+   
+    
+}
+
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
 }
