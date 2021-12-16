@@ -47,14 +47,29 @@ a{
 
     
     
- 
-    background-color: aqua;
+ position: absolute;
+   
+    bottom: 0px;
+    display: inline;
+   
+    
    
     
 }
 
 #mainDiv{
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
+    
+    position: relative;
+    height: 51.23vh;
+    text-align: center;
+    
+    
+}
+
+#mainContent{
+    
+}
+
+p {
+font-weight: bold;
 }
