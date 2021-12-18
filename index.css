@@ -49,7 +49,7 @@ a{
     
  position: absolute;
    
-    bottom: 0px;
+    bottom: -8vh;
     display: inline;
    
     
@@ -60,16 +60,39 @@ a{
 #mainDiv{
     
     position: relative;
+    display:flex;
     height: 51.23vh;
     text-align: center;
+    justify-content: center;
     
     
 }
 
-#mainContent{
-    
-}
 
 p {
 font-weight: bold;
+}
+
+#linkDiv{
+    position: relative;
+    top: 25vh;
+    
+    
+}
+
+#imgBox{
+    position: relative;
+    background-color: wheat;
+    width: 35vh;
+    height: 50vh;
+    top: -10vh;
+    justify-content: center;
+}
+
+.trackArt{
+    position: relative;
+    top: 0vh;
+    width: 300px;    
+    height: auto;
+    border: 2px solid black;
 }
