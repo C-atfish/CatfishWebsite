@@ -84,9 +84,9 @@ font-weight: bold;
     position: relative;
     background-color: wheat;
     width: 35vh;
-    height: 50vh;
+    height: 60vh;
     top: -10vh;
-    justify-content: center;
+   
 }
 
 .trackArt{
@@ -95,4 +95,9 @@ font-weight: bold;
     width: 300px;    
     height: auto;
     border: 2px solid black;
+}
+
+#trackInfo{
+    position: relative;
+    
 }
