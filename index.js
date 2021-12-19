@@ -16,13 +16,13 @@ function showPhoto(photoNumber){
 
     
     imgSpot.innerHTML = `<img src="img/${images[photoNumber]}" class="trackArt">`;
-    infoSpot.innerHTML =`<h3><a href="${ytLinks[photoNumber]}">${trackNames[photoNumber]}</a></h3>`;
+    infoSpot.innerHTML =`<h3 class="trackName"><a href="${ytLinks[photoNumber]}">${trackNames[photoNumber]}</h3></a>`;
 
 }
 
 function loadIndex(){
     imgSpot.innerHTML = `<img src="img/${images[0]}" class="trackArt">`;
-    infoSpot.innerHTML =`<h3><a href="${ytLinks[0]}">${trackNames[0]}</a></h3>`;
+    infoSpot.innerHTML =`<h3 class="trackName"><a href="${ytLinks[0]}">${trackNames[0]}</a></h3>`;
     
     // FIll inn logic to link number to array with link and image
     for(var i = 0; i < images.length;i++){
@@ -36,5 +36,5 @@ function randomPhoto(){
 
     
     imgSpot.innerHTML = `<img src="img/${images[randomNumber]}" class="trackArt">`;
-    infoSpot.innerHTML =`<h3><a href="${ytLinks[randomNumber]}">${trackNames[randomNumber]}</a></h3>`;
+    infoSpot.innerHTML =`<h3 class="trackName"><a href="${ytLinks[randomNumber]}">${trackNames[randomNumber]}</a></h3>`;
 }

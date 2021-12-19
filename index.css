@@ -82,10 +82,11 @@ font-weight: bold;
 
 #imgBox{
     position: relative;
-    background-color: wheat;
+    
     width: 38.5vh;
-    height: 70vh;
-    top: -30vh;
+    height: 50vh;
+    top: -20vh;
+    
 
    
 }
@@ -100,11 +101,31 @@ font-weight: bold;
 
 #trackInfo{
     position: relative;
+    top: -4vh;
     
 }
 
 .photoButton{
 
+    position: relative;
     margin: 0.2vw;
-    background-color: rgb(255, 4, 192);
+    background-color: rgb(170, 142, 150);
+    
+    left: 4.8vw;
+    
+
+}
+#buttonDiv{
+    position: relative;
+    
+    width: 16.4vw;
+    left: 1.5vw;
+    top: -3.4vh;
+    
+    
+}
+
+.trackName {
+    
+    
 }
