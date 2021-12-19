@@ -5,11 +5,15 @@ body {
 ul{
     list-style: none;
 }
+#linkList{
+    display: flex;
+}
 
 #ytLogo{
     width: 20px;
     
 }
+
 
 #instaLogo{
     width: 20px;
@@ -35,6 +39,7 @@ li{
     text-align: center;
     width: 200px;
     margin: 10px;
+    border-radius: 7%;
       
 }
 a{
@@ -51,6 +56,7 @@ a{
    
     bottom: 0vh;
     display: inline;
+    text-align: center;
    
     
    
@@ -64,6 +70,8 @@ a{
     height: 51.23vh;
     text-align: center;
     justify-content: center;
+
+
     
     
 }
@@ -75,7 +83,8 @@ font-weight: bold;
 
 #linkDiv{
     position: relative;
-    top: 25vh;
+    
+
     
     
 }
@@ -85,7 +94,10 @@ font-weight: bold;
     
     width: 38.5vh;
     height: 50vh;
-    top: -20vh;
+    height: 60vh;
+
+    
+   
     
 
    
@@ -97,11 +109,12 @@ font-weight: bold;
     width: 300px;    
     height: auto;
     border: 2px solid black;
+    
 }
 
 #trackInfo{
     position: relative;
-    top: -4vh;
+    
     
 }
 
@@ -119,13 +132,16 @@ font-weight: bold;
     position: relative;
     
     width: 16.4vw;
-    left: 1.5vw;
-    top: -3.4vh;
+    left: 2vw;
+   top: -4.7vh;
+    
+   
     
     
 }
 
 .trackName {
-    
+    position: relative;
+    top: -4vh;
     
 }
