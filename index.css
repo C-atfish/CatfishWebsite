@@ -33,13 +33,14 @@ ul{
 }
 
 li{
+    position: relative;
     background-color: wheat;
     color: white;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    width: 200px;
+    width: 20%;
     margin: 10px;
-    border-radius: 7%;
+    border-radius: 45%;
       
 }
 a{
@@ -53,8 +54,9 @@ a{
     
     
  position: absolute;
-   
     bottom: 0vh;
+    width: 90%;
+    margin: auto;
     display: inline;
     text-align: center;
    
@@ -68,8 +70,11 @@ a{
     position: relative;
     display:flex;
     height: 51.23vh;
+    width: 50vw;
+    margin: auto;
     text-align: center;
     justify-content: center;
+   
 
 
     
@@ -91,10 +96,10 @@ font-weight: bold;
 
 #imgBox{
     position: relative;
+    width: 40%;
+    margin: auto;
+  
     
-    width: 38.5vh;
-    height: 50vh;
-    height: 60vh;
 
     
    
@@ -106,7 +111,7 @@ font-weight: bold;
 .trackArt{
     position: relative;
     top: 0vh;
-    width: 300px;    
+    width: 80%;   
     height: auto;
     border: 2px solid black;
     
@@ -123,17 +128,19 @@ font-weight: bold;
     position: relative;
     margin: 0.2vw;
     background-color: rgb(170, 142, 150);
+    width: 8%;
+    height: 8%;
     
-    left: 4.8vw;
+    left: 15%;
     
 
 }
 #buttonDiv{
     position: relative;
     
-    width: 16.4vw;
-    left: 2vw;
-   top: -4.7vh;
+    width: 100%;
+   top: -5vh;
+
     
    
     
