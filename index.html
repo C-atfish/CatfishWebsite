@@ -4,63 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catfi$h</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
     
-</head>
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 <body>
 
-    <h2>This website is still under construction</h2>
 
 
 
+    <nav class="navbar navbar-default mainNav navbar-expand-lg py-0">
 
 
-
-<div id="mainDiv">
-
-    
-
-        <div id="imgBox">
-
-            <div id="imgPlace">
-                
-              
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand"><p class="textColor">CATFI$H</p></a>
             </div>
-            <div id="buttonDiv">
 
-            </div>
-            
-            <div id="trackInfo">
-
-                
-            </div>
-           
+            <div class="navButtons">
+            <ul class="nav navbar-nav">
+                <li class="active mr-5 navBg p-2"><a href="index.html"><p class="textColor">Music</p></a></li>
 
 
-    </div>  
-    
+                <li class="nav-item dropdown mr-5 navBg p-2">
+                    <a href="#" class="dropdown-toggle textColor" data-toggle="dropdown">Links <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
 
+                        <li><a href="#" class="dropdown-item"><img src="/img/soundCloudLogo.png" class="scLogo" alt="SoundCloud Logo">SoundCloud</a></li>
+                        <li><a class="dropdown-item" href="#" target="_blank" rel="noopener noreferrer"><img src="img/YTLogo.png" alt="Youtube Logo" class="ytLogo">Youtube</a></li>
+                        <li><a class="dropdown-item" href="#" target="_blank" rel="noopener noreferrer"><img src="/img/appleMusicLogo.png" alt="Apple Music Logo" class="appleMusicLogo">Apple Music</a></li>
+                        <li><a href="#" class="dropdown-item"><img src="img/BeatStarsLogo.png" alt="BeatStars Logo" class="beatLogo">BeatStars</a></li>
+                        <li><a href="#" class="dropdown-item"><img src="img/InstagramLogo.png" alt="Instagram Logo" class="instaLogo">Instagram</a></li>
+                        <li><a href="#" class="dropdown-item"><img src="img/facebookLogo.png" alt="FaceBook Logo" class="faceBookLogo">FaceBook</a></li>
 
-</div>
+                    </ul>
+                </li>
+                <li class="mr-5 navBg p-2"><a href="#" target="_blank" rel="noopener noreferrer"><p class="textColor">Second Menu</p></a></li>
+                <li class="mr-5 navBg p-2"><a href="#" target="_blank" rel="noopener noreferrer"><p class="textColor">Third Menu</p></a></li>
+            </ul>
+        </div>
 
-
-<div id="footerId">
-
-    <div id="linkDiv">
-        <ul id="linkList">
-            <li><img id="ytLogo" src="img/YTLogo.png"> <a href="https://www.youtube.com/channel/UC-klxKhelyZnY3I39EMXt6g">Youtube</a></li>
-            <li><img id="instaLogo" src="img/InstagramLogo.png" ><a href="https://www.instagram.com/catfish.prod/">Instagram</a></li>
-            <li> <img src="img/soundCloudLogo.png" id="soundCloudLogo"> <a href="https://soundcloud.com/user-8460270-314836749">SoundCloud</a></li>
-            <li><img src="img/facebookLogo.png" id="facebookLogo"><a href="https://www.facebook.com/Catfih-107162121799048">Facebook</a></li>
-            <li><img src="img/BeatStarsLogo.png" id="beatStarsLogo"><a href="https://www.beatstars.com/catfidollarsignh">BeatStars</a></li>
-        </ul>
     </div>
-    
-    <p>For business inquiries: catfish.gg420@gmail.com </p>
+    </nav>
 
-</div>
-    
+
+
+
+    <div class="row justify-content-center ">
+
+        
+        <div class="col-6 text-center">
+            
+            <div class="container mt-5">
+                <h3 class="songTitle" id="songTitleSpot"></h3>
+            </div>
+
+            <div class="mt-3">
+                <div id="trackArtSpot">
+
+                    
+                </div>
+                
+                
+                <div class="button-overlay">
+                    <button class="fill" id="buttOne" onclick="showImgOne()"><h5 class="buttonText">1</h5></button>
+                    <button class="fill" id="buttTwo" onclick="showImgTwo()"><h5 class="buttonText">2</h5></button>
+                    <button class="fill" id="buttThree" onclick="showImgThree()"><h5 class="buttonText">3</h5></button>
+                    <button class="fill" id="buttFour" onclick="showImgFour()"><h5 class="buttonText">4</h5></button>
+                    <button class="fill" id="buttFive" onclick="showImgFive()"><h5 class="buttonText">5</h5></button>
+                    <button class="fill" id="buttSix" onclick="showImgSix()"><h5 class="buttonText">6</h5></button>
+                    
+                </div>
+
+                <div id="listenSpot">
+                
+                </div>
+            
+
+                
+            
+                
+            
+        </div>
+            
+
+    </div>
+
+
+
+
+
 
 
     <script src="index.js"></script>

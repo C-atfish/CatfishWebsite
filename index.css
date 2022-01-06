@@ -1,154 +1,170 @@
-body {
-    background-color: rgb(170, 142, 150);
-}
 
-ul{
-    list-style: none;
-}
-#linkList{
-    display: flex;
-}
-
-#ytLogo{
-    width: 20px;
-    
-}
-
-
-#instaLogo{
-    width: 20px;
-    
-}
-#soundCloudLogo{
-    width: 20px;
-    
-}
-#facebookLogo{
-    width: 20px;
-    
-}
-#beatStarsLogo{
-    width: 20px;
-    
-}
-
-li{
-    position: relative;
-    background-color: wheat;
-    color: white;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    width: 20%;
-    margin: 10px;
-    border-radius: 45%;
-      
-}
-a{
-    text-decoration: none;
-    color: rgb(99, 95, 95);
-    margin-left: 5px;
-}
-
-#footerId{
-
-    
-    
- position: absolute;
-    bottom: 0vh;
-    width: 90%;
-    margin: auto;
-    display: inline;
-    text-align: center;
-   
-    
-   
-    
-}
-
-#mainDiv{
-    
-    position: relative;
-    display:flex;
-    height: 51.23vh;
-    width: 50vw;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-   
-
-
-    
-    
-}
-
-
-p {
-font-weight: bold;
-}
-
-#linkDiv{
-    position: relative;
-    
-
-    
-    
-}
-
-#imgBox{
-    position: relative;
-    width: 40%;
-    margin: auto;
+#listRow{
+    position: fixed;
+    bottom: 1.5%;
+    width: 100%;
   
     
-
     
-   
-    
+}
 
-   
+
+body{
+    overflow: hidden;
+    background-color: #EEE2DC;
 }
 
 .trackArt{
-    position: relative;
-    top: 0vh;
-    width: 80%;   
-    height: auto;
-    border: 2px solid black;
     
-}
-
-#trackInfo{
-    position: relative;
+    width: 40%;
+    
+    
+    
+    
     
     
 }
 
-.photoButton{
-
-    position: relative;
-    margin: 0.2vw;
-    background-color: rgb(170, 142, 150);
-    width: 8%;
-    height: 8%;
+#trackArtSpot{
     
-    left: 15%;
-    
-
 }
-#buttonDiv{
-    position: relative;
-    
-    width: 100%;
-   top: -5vh;
 
+.songTitle{
+    font-size: 5vh;
+    min-width: 100px;
+}
+
+.listenText{
+    font-size: 4vh;
+}
+
+.scLogo{
+    height: 4vh;
     
+}
+
+.ytLogo{
+    height: 3vh;
+}
+
+.instaLogo{
+    height: 3vh;
+}
+
+.beatLogo{
+    height: 3vh;
+}
+.appleMusicLogo{
+    height: 3.7vh;
+}
+
+.faceBookLogo{
+    height: 3.2vh;
+}
+
+.img-wrapper{
+    position: relative;
+}
+
+.button-overlay{
+    position: absolute;
+    top:92%;
+    width: 38%;
+    left: 32%;
+    
+    
+    
+}
+
+button{
+    width: 2.3vh;
+    height: 2.3vh;
+}
+
+.buttonText{
+
+    font-size: 1.4vh;
+    
+}
+
+.trackInfoBox{
+    background-color: wheat;
+    width: 40%;
+}
+.listenYtLogo{
+    height: 2vh;
+    width: auto;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+}
+
+.listenScLogo{
+    height: 3vh;
+    width: auto;
+    margin-bottom: 2vh;
+    margin-left: -0.2vw;
+}
+.listenSpotifyLogo{
+    height: 2.8vh;
+    width: auto;
+    margin-bottom: 2vh;
+    margin-left: -0.2vw;
    
-    
-    
 }
 
-.trackName {
-    position: relative;
-    top: -4vh;
-    
+#listenSpot{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 32%;
+    bottom: 0%;
+
 }
+.navButtons{
+    position: relative;
+    right: 28%;
+}
+
+.navBg{
+    background-color: #BAB2B5;
+    height: 4vh;
+}
+
+.mainNav{
+    
+    background-color: #EDC7B7;
+    height: 4vh;
+}
+.textColor{
+    color: #AC3B61;
+}
+
+.fill {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    
+    outline: 0;
+    z-index: 1;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .fill::after {
+    content: "";
+    background-color: #AC3B61;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .fill:hover::after {
+    top: 0px;
+    left: 0px;
+  }
