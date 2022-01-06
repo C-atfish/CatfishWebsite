@@ -8,7 +8,7 @@ var listenSpot = document.getElementById("listenSpot");
 
 var trackTitleSpot = document.getElementById("songTitleSpot");
 
-var imgArray = ["FallingInReverseTrackart.jpg", "badDeedsTrackart.jpg", "finalCluetrackart.jpg", "HeavyStepsTrackart.jpg", "tracesOfHorus.png", "VibranceFromNothingTrackArt.png"];
+var imgArray = ["FallingInReverseTrackart.jpg", "BadDeedsTrackart.jpg", "finalCluetrackart.jpg", "HeavyStepsTrackart.jpg", "tracesOfHorus.png", "VibranceFromNothingTrackArt.png"];
 var titleArray = ["Falling In Reverse", "Bad Deeds", "Final Clue", "Heavy Steps", "Traces Of Horus", "Vibrance From Nothing"];
 var youtubeArray = ["https://www.youtube.com/watch?v=C8qhvFMsFOM", "https://www.youtube.com/watch?v=Wzg9C-F1xlw&list=OLAK5uy_lzDYy-1kz0cfsOb2WhhfH2ydVGk1lovko", "https://www.youtube.com/watch?v=aUJncbTGIrY&list=OLAK5uy_kDuTsSdRF7ueoKJnkBTJa3LmgMhmPIo5A", "https://www.youtube.com/watch?v=s7wJv-Vof50&list=OLAK5uy_k5tyLYVXB0UBIVRvTXhZJqdnnXocNXPTU", "https://www.youtube.com/watch?v=80nUwEaLEOM", "https://www.youtube.com/watch?v=lTV_Bev8mlw&list=OLAK5uy_lq4k9pGR4EPcbhlx7w3OQttrkKp-F5DG8" ];
 var spotifyArray = ["https://open.spotify.com/track/2HWpuw1ORwKmQl3sT7t1bN?si=be7b2acf6d1543ef", "https://open.spotify.com/track/5PCs3GWRhrRFHzs75Yi1oB?si=ae002dd2629f4a9d", "https://open.spotify.com/track/5aUyTRPJ8qwIztpWAti4CN?si=b072ebaf934546a3", "https://open.spotify.com/track/14bOHQi5154h4T05CEnp6T?si=d08143c36e1146a8", "not released", "https://open.spotify.com/track/6FDOKB4oXSHgqbOxlkBXBS?si=71f3fab8c7f34b52" ];
