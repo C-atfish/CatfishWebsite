@@ -19,15 +19,11 @@ body{
     width: 40%;
     
     
-    
-    
+     
     
     
 }
 
-#trackArtSpot{
-    
-}
 
 .songTitle{
     font-size: 5vh;
@@ -38,30 +34,7 @@ body{
     font-size: 4vh;
 }
 
-.scLogo{
-    height: 3vh;
-    left: 0vw;
-    
-}
 
-.ytLogo{
-    height: 2vh;
-}
-
-.instaLogo{
-    height: 2vh;
-}
-
-.beatLogo{
-    height: 2vh;
-}
-.appleMusicLogo{
-    height: 2.7vh;
-}
-
-.faceBookLogo{
-    height: 2.2vh;
-}
 
 .img-wrapper{
     position: relative;
@@ -121,26 +94,7 @@ button{
     bottom: 0%;
 
 }
-.navButtons{
-    position: relative;
-    right: 28%;
-}
 
-.navBg{
-    background-color: #BAB2B5;
-    height: 4vh;
-}
-
-.mainNav{
-    
-    background-color: #EDC7B7;
-    height: 4vh;
-}
-.textColor{
-    color: #AC3B61;
-    position: relative;
-    bottom: 20%;
-}
 
 .fill {
     font-size: 20px;
