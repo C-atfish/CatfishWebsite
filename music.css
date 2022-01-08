@@ -1,0 +1,180 @@
+
+#listRow{
+    position: fixed;
+    bottom: 1.5%;
+    width: 100%;
+  
+    
+    
+}
+
+
+body{
+    overflow: hidden;
+    background-color: #EEE2DC;
+}
+
+.trackArt{
+    
+    width: 40%;
+    
+    
+    
+    
+    
+    
+}
+
+#trackArtSpot{
+    
+}
+
+.songTitle{
+    font-size: 5vh;
+    min-width: 100px;
+}
+
+.listenText{
+    font-size: 4vh;
+}
+
+.scLogo{
+    height: 3vh;
+    left: 0vw;
+    
+}
+
+.ytLogo{
+    height: 2vh;
+}
+
+.instaLogo{
+    height: 2vh;
+}
+
+.beatLogo{
+    height: 2vh;
+}
+.appleMusicLogo{
+    height: 2.7vh;
+}
+
+.faceBookLogo{
+    height: 2.2vh;
+}
+
+.img-wrapper{
+    position: relative;
+}
+
+.button-overlay{
+    position: absolute;
+    top:92%;
+    width: 38%;
+    left: 32%;
+    
+    
+    
+}
+
+button{
+    width: 2.3vh;
+    height: 2.3vh;
+}
+
+.buttonText{
+
+    font-size: 1.4vh;
+    
+}
+
+.trackInfoBox{
+    background-color: wheat;
+    width: 40%;
+}
+.listenYtLogo{
+    height: 2vh;
+    width: auto;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+}
+
+.listenScLogo{
+    height: 3vh;
+    width: auto;
+    margin-bottom: 2vh;
+    margin-left: -0.2vw;
+}
+.listenSpotifyLogo{
+    height: 2.8vh;
+    width: auto;
+    margin-bottom: 2vh;
+    margin-left: -0.2vw;
+   
+}
+
+#listenSpot{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 32%;
+    bottom: 0%;
+
+}
+.navButtons{
+    position: relative;
+    right: 28%;
+}
+
+.navBg{
+    background-color: #BAB2B5;
+    height: 4vh;
+}
+
+.mainNav{
+    
+    background-color: #EDC7B7;
+    height: 4vh;
+}
+.textColor{
+    color: #AC3B61;
+    position: relative;
+    bottom: 20%;
+}
+
+.fill {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    
+    outline: 0;
+    z-index: 1;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .fill::after {
+    content: "";
+    background-color: #AC3B61;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 3px;
+    transition: 0.2s;
+  }
+  
+  .fill:hover::after {
+    top: 0px;
+    left: 0px;
+  }
+
+  #constructionText{
+      position: absolute;
+      bottom: 0%;
+  }
+
+  
