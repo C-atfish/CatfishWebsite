@@ -43,3 +43,8 @@
 .faceBookLogo{
     height: 2.2vh;
 }
+
+#constructionText{
+    position: absolute;
+    bottom: 0%;
+}
